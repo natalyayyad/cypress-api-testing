@@ -47,7 +47,7 @@ describe('api testing', ()=>{
         })
     })
 
-    it.only('delete employee record by id', ()=>{
+    it('delete employee record by id', ()=>{
         var id : number = 1
         cy.get('@urls').then((url:any) => {
             cy.request('PUT', url.deleteEmployee+`${id}`)
