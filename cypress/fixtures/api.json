@@ -1,0 +1,7 @@
+{
+    "getAllEmployees": "/employees",
+    "getEmployee": "/employee/",
+    "createRecord": "/create",
+    "updateEmployee": "/update/",
+    "deleteEmployee": "/delete/"
+}
